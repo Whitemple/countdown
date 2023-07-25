@@ -9,7 +9,7 @@ const preloader = document.getElementById('preloader');
 function countdown(){
     // Create data
     const currentDate = new Date();
-    const deadline = new Date('July 20, 2023 00:00:00');
+    const deadline = new Date('September 20, 2023 00:00:00');
     const difference = deadline - currentDate;
     const daysLeft = Math.floor(difference / 1000 / 60 / 60 / 24);
     const hoursLeft = Math.floor(difference / 1000 / 60 / 60) % 24;
